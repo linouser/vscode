@@ -31,5 +31,12 @@
 	"nodejsRepository": "https://nodejs.org",
 	"urlProtocol": "textla",
 	"webviewContentExternalBaseUrlTemplate": "https://{{uuid}}.vscode-cdn.net/insider/ef65ac1ba57f57f2a3961bfe94aa20481caca4c6/out/vs/workbench/contrib/webview/browser/pre/",
-	"builtInExtensions": []
+	"builtInExtensions": [],
+	"configurationDefaults": {
+		"workbench.activityBar.location": "hidden",
+		"workbench.editor.showTabs": "single",
+		"window.menuBarVisibility": "hidden",
+		"window.commandCenter": false,
+		"workbench.layoutControl.enabled": false
+	}
 }

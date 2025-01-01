@@ -38,9 +38,38 @@ See techStack.md for detailed dependency information
 
 ## Recent Significant Changes
 - Initial documentation setup completed
-- Preparing for major simplification
-- Directory cleanup pending
-- UI simplification planned
+- Configured minimal UI settings:
+  - Hidden activity bar
+  - Single tab mode
+  - Hidden menu bar
+  - Disabled command center
+  - Disabled layout controls
+- Removed unnecessary workbench contrib directories:
+  - debug (debug capabilities)
+  - terminal (built-in terminal)
+  - extensions (extension system)
+  - remote (remote development)
+  - scm (git/source control)
+  - tasks (task running)
+  - testing (testing framework)
+  - notebook (notebook support)
+  - webview (webview support)
+  - chat (chat features)
+  - inlineChat (inline chat)
+  - comments (commenting system)
+  - performance (performance features)
+  - customEditor (custom editor support)
+
+## UI Architecture
+The workbench UI is composed of several parts:
+- Editor: Core text editing area
+- Status Bar: Optional bottom bar
+- Title Bar: Optional top bar
+- Activity Bar: Hidden by default
+- Side Bar: Available but hidden by default
+- Panel: Available but hidden by default
+
+All UI parts can be toggled through the layout service, with default visibility controlled through product.json configuration.
 
 ## User Feedback Integration
 To be updated during development and testing phases

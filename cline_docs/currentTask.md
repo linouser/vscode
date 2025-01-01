@@ -18,11 +18,23 @@
 2. ✓ Configure minimal UI in product.json
 3. ✓ Begin UI simplification
 4. ✓ Update initial branding to TextLA
-5. Verify build and functionality:
+5. Set up development environment:
+   - Install Node.js
+   - Install Yarn package manager
+   - Install development dependencies
+6. Verify build and functionality:
    - Build the application
    - Test core text editing features
    - Verify UI simplification works
    - Check branding appears correctly
+
+## Prerequisites
+Before building:
+1. Install Node.js from https://nodejs.org
+2. Install Yarn: `npm install -g yarn`
+3. Install development tools:
+   - Windows: Visual Studio build tools
+   - Python 3.x for node-gyp
 
 ## Progress
 - Configured default settings in product.json to:
